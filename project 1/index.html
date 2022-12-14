@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Meet yourself</title>
+  <link rel="stylesheet" href="style1.css"/>
+</head>
+<body>
+  <header>
+    <h1>meet yourself</h1>
+  </header>
+  <ul class="horizontal">
+    <li><a class="active" href="../project 1/index.html">главная</a></li>
+    <li><a href="../project 1/uslugi.html">услуги</a></li>
+    <li><a href="#contact">свяжитесь с нами</a></li>
+    <li style="float:right"><a href="../project 1/onas.html">о нас</a></li>
+    <li><a href="../project 1/russia.html">буддизм в россии</a></li>
+    <li><a href="../project 1/merop.html">план мероприятий</a></li>
+    <li><a target="_blank" href=https://ru.wikipedia.org/wiki/%D0%91%D1%83%D0%B4%D0%B4%D0%B8%D0%B7%D0%BC><img src="https://pngimg.com/uploads/wikipedia/wikipedia_PNG16.png" width=14 height=14 hspace=0 vspace=0 alt="буддизм" borders=2></a></li>
+  </ul>
+  <article>
+    <h2 align="center">Добро пожаловать в наш центр!</h2>
+    <p align="center"><img width="300" src="https://gotonight.ru/ih800/catalog/museums/3144_moscowbuddahcentr.jpg"></img></p>
+    <p style="margin-left: 50px; margin-right: 50px;" align="justify">Центр, где собрана информация о буддизме и его практиках. Здесь можно научиться методам, которые были даны Буддой две с половиной тысячи лет назад и с тех пор практиковались сначала в Индии, а затем в Тибете. Каждый может в подходящем для себя ритме изучать буддизм, посещая лекции путешествующих учителей и медитируя в группе. Здесь также можно получить подробные объяснения по всем практикам и выполнять индивидуальные практики в гомпе (зале для медитаций). Все медитации и лекции для начинающих проводятся бесплатно.</p>
+  </article>
+  <article>
+    <h2 align="center">Свяжитесь с нами!</h2>
+    <p>Мы создали форму обратной связи! Пишите нам :)</p>
+    <form action="http://185.182.111.214:7628/cgi-bin/form_action.py" method="get" target="self" class="form" id="contact">
+      <input type="email" name="mail" placeholder="E-mail">
+      <input type="text" name="name" placeholder="Имя">
+      <input type="text" placeholder="Фамилия" name="surname"> <br> <br>
+      <input required="" class="form__input" id="phone" type="tel" placeholder="+7-000-000-00-00" name="phone">
+      <label class="form__label" for="date">Дата отправки сообщения:</label>
+      <input required="" class="form__input" id="date" type="date" placeholder="07.12.2022" name="date"><br> <br>
+      <textarea class="form_textarea" placeholder="Ваше сообщение"></textarea> <br> <br>
+      <input type="reset" value="Обновить"></input> 
+      <input type="submit" value="Отправить"></input>
+    </form>
+  </article>
+</body>
+</html>
